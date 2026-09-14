@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated tracker bundle (built from tracker/src via scripts/build-tracker.mjs)
+/public/script.js

@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated tracker bundle — source lives in tracker/src.
+    "public/script.js",
   ]),
 ]);
 
